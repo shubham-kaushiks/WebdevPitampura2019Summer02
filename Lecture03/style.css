@@ -1,0 +1,31 @@
+p {
+  color: blue;
+  backgroud-color: violet;
+  /* type selector*/
+}
+p:first-child {
+  color : lime;
+  /* first elements in a div */
+}
+* {
+  margin: 20px;
+  background-color: pink;
+  font-family: 'Courier';
+  /* universal selector*/
+}
+.para1 {
+  font-size: 40px;
+  /* class selector*/
+}
+#one {
+  color: black;
+  /* id selector*/
+}
+a:hover {
+  color : aqua;
+}
+a:active {
+  color: blue;
+}
+/* precedence of infile css is higher than href */
+/* id > class > type > *  precedence of selectors*/
