@@ -1,0 +1,32 @@
+.container {
+  height : 200px;
+  width : 400px;
+  background-color: blue;
+  border : solid 2px black;
+  margin : 20px;
+  padding : 20px;
+}
+.contain {
+  height : 100px;
+  width : 200px;
+  background-color: darkcyan;
+  border : solid 2px black;
+  margin : 20px;
+  padding : 50px;
+  /* padding is between container and content inside */
+}
+
+div p {
+  color :  brown;
+  /* children */
+}
+div > p {
+  background-color: green;
+    /* direct child */
+}
+div + p {
+    /* next sibling of div having p*/
+}
+div ~ p {
+    /* all siblings of div having p*/
+}
