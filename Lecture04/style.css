@@ -1,0 +1,35 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  text-align: center;
+  display: block;
+  margin: 10px;
+}
+.item {
+  display: inline-block;
+}
+#div1 {
+  transform: translate(10px, 10px);
+  background-color: blue;
+}
+#div2 {
+  transform: scale(1.5);
+}
+#div3 {
+  transform: rotate(50deg);
+  background-color: blue;
+}
+#div4 {
+  transform: skew(20deg);
+}
+
+div:active {
+  display: none;
+}
+ul ul{
+  display: none;
+}
+li:hover > ul{
+  display: block;
+}
