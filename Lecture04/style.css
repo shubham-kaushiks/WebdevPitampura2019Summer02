@@ -12,17 +12,28 @@ div {
 #div1 {
   transform: translate(10px, 10px);
   background-color: blue;
+  box-shadow: 5px 5px 5px black;
 }
 #div2 {
   transform: scale(1.5);
+  border: 2px solid black;
+  transition: transform 5s, border 1s;
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 #div3 {
   transform: rotate(50deg);
   background-color: blue;
+  position: ;
+  top: 10px;
+  left: 10px;
 }
 #div4 {
   transform: skew(20deg);
 }
+
+/* postion : static, relative(wrt originally allocated), fixed(empties space), absolute, sticky */
 
 div:active {
   display: none;
