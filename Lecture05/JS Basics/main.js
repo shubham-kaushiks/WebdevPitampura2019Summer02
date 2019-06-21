@@ -50,11 +50,23 @@ var yy = function () {
   // var yy;
   // yy = function() that's why not hoisted on the top
 }
-function f1(i) {
+function f1(i, onDone) {
   //var j;
+  var jj = ""
   for(j=0;j<=i;j++)
   {
+    jj += j;
     console.log(j);
   }
+  onDone(jj);
 }
-f1(4);
+f1(4, function(str){
+  window.alert(str)} );
+
+
+
+
+// map, reduce, filter
+// fn to remove duplicates
+// prime number generator
+// DOM api
