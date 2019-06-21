@@ -1,0 +1,7 @@
+@media (max-width: 480px){
+p {
+    display: none;
+}
+}
+
+/* !important overrides specificity */
