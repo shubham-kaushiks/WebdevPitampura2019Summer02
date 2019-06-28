@@ -3,7 +3,6 @@ function map(arr, fn) {
         return prev.concat(fn(current));
     }, []);
 
-
 function filter(array, test) {
       return reduce(array, function(arr, el) {
         // Only add to the array if the test function is true
