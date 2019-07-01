@@ -13,10 +13,15 @@
     </script>
   </body>
 </html>
-<!-- promise.all
-todo list
+<!-- 
 call back to promise
-promisify(fn)//this function takes arg, callback
-{
-  return fn;//arg to promise(resolves to rvalue)
-} -->
+const promisify = funtion(fn) {
+  return new Promise(resolve, reject) => {
+    fn(...arguments, (err, result)) {
+    if(err) return reject(err);
+    resolve(result);
+    }
+  }
+}
+}
+-->
