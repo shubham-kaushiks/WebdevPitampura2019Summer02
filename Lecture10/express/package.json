@@ -1,0 +1,21 @@
+{
+  "name": "express-app",
+  "version": "2.2.2",
+  "description": "abc",
+  "main": "index.js",
+  "scripts": {
+    "test": "abc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "abc"
+  },
+  "keywords": [
+    "abc"
+  ],
+  "author": "abc",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

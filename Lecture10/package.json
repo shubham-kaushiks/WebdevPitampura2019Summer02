@@ -1,0 +1,21 @@
+{
+  "name": "trial-app",
+  "version": "2.2.2",
+  "description": "Just a try",
+  "main": "f1.js",
+  "scripts": {
+    "test": "abc "
+  },
+  "repository": {
+    "type": "git",
+    "url": "abc"
+  },
+  "keywords": [
+    "abc"
+  ],
+  "author": "cba",
+  "license": "MIT",
+  "dependencies": {
+    "is-natural-number": "^4.0.1"
+  }
+}
