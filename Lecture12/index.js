@@ -40,7 +40,7 @@ app.listen(3000, function(){
 
 //{{{}}} for rendering html
 
-// {{#if shownmame}}
+// {{#if showname}}
 //   Hello {{name}}
 // {{else}}
 //   Hello XYZ
