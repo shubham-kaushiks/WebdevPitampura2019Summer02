@@ -1,6 +1,7 @@
 {
-  "name": "lecture13",
+  "name": "lecture14",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,9 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "5": "0.0.1",
     "express": "^4.17.1",
-    "hbs": "^4.0.4"
-  },
-  "description": ""
+    "sequelize": "^5.10.0",
+    "sqlite3": "^4.0.9"
+  }
 }
